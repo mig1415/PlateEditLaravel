@@ -10,10 +10,12 @@
 
 
                             <?php
-                            echo 'вы выбрали альбом  ';
+                          echo 'вы выбрали альбом  ';
                            echo '<font color=red>';
                             print_r($tmpEditAlbum);
-                           echo '</font>';
+                           echo '<br>';
+                            echo '</font> Исполнитель: ';
+                            print_r($tmpEditArtist);
 ////////////////////////////////////////////////////////////////////////////////
                            if ($tmpAlbumEdit or $tmpArtistEdit)  {
                                echo '<script type="text/javascript">';
